@@ -1,0 +1,674 @@
+*/ html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*   custome style  */
+
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.container {
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+  /* width: 100%; */
+}
+.container2 {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* flex */
+
+.flex {
+  display: flex;
+}
+.align-item {
+  align-items: center;
+}
+.align-items {
+  align-items: baseline;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-70 {
+  flex: 0 1 70%;
+  /* border: 0.12rem solid black; */
+}
+.flex-50 {
+  flex: 0 1 50%;
+}
+.flex-60 {
+  flex: 0 1 60%;
+  border: 0.12rem solid black;
+}
+.flex-30 {
+  flex: 0 1 30%;
+  /* border: 0.12rem solid black; */
+}
+.flex-28 {
+  flex: 0 1 28%;
+  /* border: 0.12rem solid black; */
+}
+.flex-40 {
+  flex: 0 1 40%;
+}
+
+.flex-5 {
+  flex: 0 1 5%;
+  border: 0.12rem solid black;
+}
+.flex-10 {
+  flex: 0 1 10%;
+}
+.flex-31 {
+  flex: 0 1 31.5%;
+}
+.flex-23 {
+  flex: 0 1 23%;
+  /* border: 0.125rem solid black; */
+}
+
+.full-width {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* button */
+
+.btn {
+  font-size: 1.125rem;
+  padding: 0.8rem 1rem;
+  text-align: center;
+  display: inline-block;
+  flex: 0 1 16%;
+}
+.herder-btn {
+  flex: 0 1 16%;
+}
+
+/* header */
+
+.header {
+  padding: 1.5rem;
+  background-color: rgb(9, 45, 91);
+}
+.address a {
+  color: white;
+}
+.fa-map-marker-alt {
+  color: white;
+}
+.header-span {
+  padding-left: 0.5rem;
+  color: white;
+}
+.mail {
+  margin-left: 5rem;
+}
+.fa-envelope {
+  color: white;
+}
+.list a {
+  margin-left: 2rem;
+
+  color: white;
+}
+.fab {
+  color: white;
+  margin-left: 2rem;
+}
+.lower-header {
+  margin: 1rem auto;
+}
+.header-logo {
+  flex: 0 1 40%;
+}
+.nav-link {
+  flex: 0 1 40%;
+}
+.btn {
+  flex: 0 1 10%;
+  background-color: rgb(228, 93, 107);
+  font-size: 16px;
+  padding: 0.5rem 1rem;
+  color: white;
+  /* width: 80%; */
+}
+.header-btn {
+  background-color: rgb(228, 93, 107);
+  padding: 0.5rem 1.5rem;
+  color: white;
+}
+.header-btn a {
+  color: white;
+}
+
+.second-btn {
+  border: 0.12rem solid red;
+  padding: 1rem 2.5rem;
+  border-radius: 6px;
+}
+.list a {
+  color: rgb(11, 28, 57);
+  font-weight: 500;
+}
+
+/*   hero  section */
+
+.hero-section {
+  background: url(./assests/about/blog_hero.jpg);
+  height: 400px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+.blog-h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: white;
+  align-self: center;
+  margin-top: 8rem;
+}
+.flex-28 {
+  height: 12rem;
+  background-color: rgb(251, 249, 255);
+}
+.flex-28-p {
+  /* height: 3rem; */
+  width: 80%;
+  border: 0.12rem solid rgb(197, 191, 207);
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  color: rgb(197, 191, 207);
+}
+.search-nav {
+  padding: 0.6rem 1rem;
+  /* border: 0.12rem solid rgb(197, 191, 207); */
+  margin-right: 1rem;
+  background-color: rgb(228, 93, 107);
+  /* font-size: 12px; */
+}
+.fa-search {
+  color: white;
+}
+.button {
+  margin: 1rem 1rem 0 1rem;
+  border: 0.12rem solid rgb(228, 93, 107);
+  width: 90%;
+  padding: 0.8rem 0;
+  text-align: center;
+  font-size: 1.12rem;
+  color: rgb(228, 93, 107);
+}
+.category {
+  margin: 6rem 0;
+  background: rgb(251, 249, 255);
+  font-size: 1.5rem;
+  font-weight: 500;
+  height: 590px;
+}
+.category h3 {
+  color: rgb(11, 28, 57);
+  padding: 2rem 0 0 2rem;
+}
+.list2 {
+  border-top: 0.12rem solid rgb(197, 193, 193);
+  /* padding-top: 1rem; */
+}
+.category-list {
+  border-bottom: 0.12rem solid rgb(197, 193, 193);
+  padding: 1.5rem 0;
+  font-size: 1rem;
+  width: 90%;
+  color: rgb(143, 143, 146);
+}
+/*  section two start */
+
+.section2 {
+  padding-top: 6rem;
+}
+.section-hading {
+  border: 0.12rem solid brown;
+  width: 120px;
+  padding: 0.5rem 1rem;
+
+  font-size: 1.8rem;
+  background-color: rgb(228, 93, 107);
+
+  position: absolute;
+  top: 65rem;
+  left: 22.5rem;
+  margin: 0;
+}
+.section-hading h3 {
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+.time {
+  font-weight: 400;
+}
+.section-h2 {
+  margin-top: 3.5rem;
+  font-size: 2rem;
+  color: rgb(11, 28, 57);
+}
+.section-p {
+  color: rgb(80, 97, 114);
+  line-height: 2.2;
+  width: 90%;
+}
+.nav-span {
+  margin-left: 0.5rem;
+  margin-top: 3rem;
+}
+.span2 {
+  border-left: 0.18rem solid rgb(57, 104, 151);
+  /* margin: 0 1rem; */
+  padding: 0 1.5rem;
+  height: 0.5rem;
+}
+.recent-post {
+  margin-top: 7rem;
+  height: 580px;
+}
+.recent-post h3 {
+  color: rgb(11, 28, 57);
+  margin: 1rem 1rem;
+  font-size: 1.7rem;
+  border-bottom: 0.12rem solid rgb(209, 204, 204);
+  width: 80%;
+  padding: 1rem 0;
+}
+.recent-post-image {
+  padding-left: 1rem;
+  /* padding-top: 6rem 0; */
+}
+.recent-article p {
+  line-height: 0;
+  margin-left: 1rem;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(69, 65, 77);
+}
+.recent-article time {
+  margin-left: 1.5rem;
+  color: rgb(90, 106, 122);
+}
+.image-box {
+  margin: 1rem 0;
+  /* border-top: 0.12rem solid grey; */
+}
+
+/* section three start */
+
+.section3 {
+  padding-top: 6rem;
+}
+.section3-hading {
+  /* border: 0.12rem solid brown; */
+  width: 120px;
+  padding: 0.5rem 1rem;
+
+  font-size: 1.8rem;
+  background-color: rgb(228, 93, 107);
+
+  position: absolute;
+  top: 113rem;
+  left: 22.5rem;
+  margin: 0;
+}
+.section3-hading h3 {
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+.section4 {
+  padding-top: 6rem;
+}
+
+.section4-hading {
+  /* border: 0.12rem solid brown; */
+  width: 120px;
+  padding: 0.5rem 1rem;
+
+  font-size: 1.8rem;
+  background-color: rgb(228, 93, 107);
+
+  position: absolute;
+  top: 161rem;
+  left: 22.5rem;
+  margin: 0;
+}
+.tag-clouds {
+  height: 300px;
+}
+.section4-hading h3 {
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+.tag-clouds-h4 {
+  color: rgb(11, 28, 57);
+  margin: 1rem 1rem;
+  font-size: 1.7rem;
+  border-bottom: 0.12rem solid rgb(209, 204, 204);
+  width: 80%;
+  padding: 1rem 0;
+}
+.tag-clouuds-hading {
+  border: 0.12rem solid rgb(238, 238, 238);
+  padding: 0.5rem 1rem;
+  background-color: white;
+  margin: 0.5rem 0.6rem;
+}
+.tag-clouuds-hading h5 {
+  margin: 0;
+  color: rgb(153, 153, 153);
+  /* margin-left: .8rem; */
+}
+.image-box-insta {
+  margin: 0.5rem;
+}
+/*   section five start   */
+
+.section5 {
+  padding-top: 6rem;
+}
+.section5-hading {
+  /* border: 0.12rem solid brown; */
+  width: 120px;
+  padding: 0.5rem 1rem;
+
+  font-size: 1.8rem;
+  background-color: rgb(228, 93, 107);
+
+  position: absolute;
+  top: 209rem;
+  left: 22.5rem;
+  margin: 0;
+}
+.section5-hading h3 {
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+.instagram-feeds {
+  margin-top: 5rem;
+  height: 350px;
+  background-color: rgb(251, 249, 255);
+}
+.instagram-feeds h3 {
+  color: rgb(11, 28, 57);
+  margin: 1rem 1rem;
+  font-size: 1.7rem;
+  border-bottom: 0.12rem solid rgb(209, 204, 204);
+  width: 80%;
+  padding: 1rem 0;
+}
+.newsletter {
+  margin-top: 4rem;
+  height: 300px;
+  background-color: rgb(251, 249, 255);
+}
+.newsletter h3 {
+  color: rgb(11, 28, 57);
+  margin: 1rem 1rem;
+  font-size: 1.7rem;
+  border-bottom: 0.12rem solid rgb(209, 204, 204);
+  width: 80%;
+  padding: 1rem 0;
+}
+.newsletter-p {
+  margin: 0;
+  width: 90%;
+  border: 0.12rem solid rgb(209, 204, 204);
+  margin-left: 1rem;
+}
+.newsletter-p p {
+  color: rgb(197, 184, 184);
+  padding: 0.7rem;
+  margin: 0;
+}
+
+.button2 {
+  letter-spacing: 3px;
+}
+
+/* section six start  */
+
+.section6 {
+  padding-top: 6rem;
+}
+.section6-hading {
+  /* border: 0.12rem solid brown; */
+  width: 120px;
+  padding: 0.5rem 1rem;
+
+  font-size: 1.8rem;
+  background-color: rgb(228, 93, 107);
+
+  position: absolute;
+  top: 257rem;
+  left: 22.5rem;
+  margin: 0;
+}
+.section6-hading h3 {
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+.angle-mark {
+  padding-top: 6rem;
+  text-align: center;
+}
+.angle-mark-span {
+  border: 0.12rem solid rgb(197, 184, 184);
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  color: rgb(197, 184, 184);
+}
+
+/* footer start  */
+
+.second-footer {
+  padding: 5rem 0;
+  background-color: rgb(248, 250, 254);
+  margin-top: 6rem;
+}
+.second-footer-p {
+  margin-top: 1.5rem;
+  color: rgb(124, 139, 155);
+  font-size: 12px;
+}
+.footer-nav li {
+  margin: 2rem 0.5rem;
+}
+.far {
+  color: rgb(57, 68, 80);
+}
+.second-footer-h4 {
+  font-size: 1.125rem;
+  color: rgb(11, 92, 199);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+.second-footer-address {
+  color: rgb(11, 92, 199);
+  font-size: 1.125rem;
+}
+.second-footer-nav {
+  /* text-align: center; */
+  font-size: 16px;
+}
+.second-footer-nav li {
+  padding: 0.8rem 0;
+  color: rgb(124, 139, 155);
+}
+.second-footer-nav a {
+  color: rgb(124, 139, 155);
+}
+.address-p {
+  color: rgb(124, 139, 155);
+  font-size: 16px;
+  padding: 0.5rem;
+}
+/*  under-footer  */
+.under-footer-div {
+  background-color: rgb(248, 250, 254);
+}
+
+.under-footer {
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 1.25rem;
+  border-top: 0.125rem solid grey;
+  /* background-color: rgb(248, 250, 254); */
+}
+.under-footer-small {
+  color: rgb(124, 139, 155);
+}
+.far {
+  color: red;
+}
+.under-footer-span {
+  color: red;
+}
