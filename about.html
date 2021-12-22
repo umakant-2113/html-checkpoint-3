@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>checkpoints 3</title>
     <!-- css -->
-    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="style.css" />
     <!-- font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,8 +20,8 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
-      
+
+  <!-- body start -->
 
   <body>
     <header class="header">
@@ -34,7 +34,8 @@
             </span></a
           >
           <a class="mail" href="#"
-            ><i class="fas fa-envelope"></i><span class="header-span">info@cunsulting.com</span></a
+            ><i class="fas fa-envelope"></i
+            ><span class="header-span">info@cunsulting.com</span></a
           >
         </address>
         <nav>
@@ -56,38 +57,62 @@
       </div>
     </header>
     <header>
-      <div class="container lower-header flex justify-between">
-        <div class="header-logo">
-          <img src="./assests/logo/logo.png" alt="logo" />
+      <div class="second-header">
+        <div class="container lower-header flex justify-between">
+          <div class="header-logo">
+            <img src="./assests/logo/logo.png" alt="logo" />
+          </div>
+          <div class="nav-link">
+            <ul class="flex justify-between">
+              <li class="list"><a href="./index.html">Home</a></li>
+              <li class="list"><a href="#">About</a></li>
+              <li class="list"><a href="./service.html">Service </a></li>
+              <li class="list"><a href="./case.html">Case</a></li>
+              <li class="list"><a href="./blog.html">Blog</a></li>
+              <li class="list"><a href="./contect.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="header-btn">
+            <a href="#">contact now</a>
+          </div>
         </div>
-        <div class="nav-link">
-          <ul class="flex justify-between">
-            <li class="list"><a href="./home.html">Home</a></li>
-            <li class="list"><a href="#">About</a></li>
-            <li class="list"><a href="./service.html">Service </a></li>
-            <li class="list"><a href="./case.html">Case</a></li>
-            <li class="list"><a href="./blog.html">Blog</a></li>
-            <li class="list"><a href="./contect.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="header-btn"> <a href="#">contact now</a></div>
       </div>
     </header>
 
-    <!--  main start  -->
-    <main>
-      <section class="hero-section">
-        <div class="container  flex justify-center">
-            <h1 class="hero-h1">About</h1>
+    <!-- main -->
 
+    <main>
+      <section class="section">
+        <div class="container flex2">
+          <h1 class="section-h1">About</h1>
         </div>
       </section>
-  
-      
-         
-    
+      <!-- section team start  -->
 
-      <!-- section two start -->
+      <section class="section-3">
+        <div class="container flex">
+          <div class="flex-60">
+            <img src="./assests/team/wetrusted.jpg" alt="team" />
+          </div>
+          <div class="flex-50 position">
+            <h2 class="section3-h2">
+              We are more trusted <br />
+              then 5000 clients
+            </h2>
+            <p class="section3-p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+              ut obcaecati quidem eum ipsam molestiae pariatur. Esse excepturi
+              mollitia quidem eum ipsam molestiae pariatur. Esse excepturi
+              mollitia
+            </p>
+            <button class="btn btn2 sec3-btn">
+              <a href="#">Learn more</a>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!--  section start -->
 
       <section class="section2">
         <div class="container">
@@ -111,11 +136,11 @@
             </div>
             <div class="image-box2">
               <article class="section2-article">
-                <h2>
+                <h2 class="section2-h2">
                   What we do <br />
                   for you
                 </h2>
-                <hr class="hr">
+                <hr class="hr" />
 
                 <p class="section2-p">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -131,10 +156,8 @@
           </div>
         </div>
       </section>
+      <!-- section start -->
 
-
-
-      <!-- section start  -->
       <section class="section5">
         <div class="container">
           <div class="team">
@@ -166,7 +189,7 @@
         </div>
       </section>
 
-      <!--  section recent news -->
+      <!-- recent section -->
 
       <section class="recent-section">
         <div class="container">
@@ -218,39 +241,8 @@
         </div>
       </section>
     </main>
-    <footer>
-      <div class="footer">
-        <div class="container flex justify-between">
-          <div class="flex-30">
-            <h2 class="footer-h2">
-              request for call <br />
-              back
-            </h2>
-            <p class="footer-p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-              pariatur consequatur, beatae aliquam sed enim, similique, iure .
-              pariatur consequatur, beatae aliquam sed enim, similique, iure .
-            </p>
-          </div>
-          <div class="flex-60">
-            <form action="">
-              <input class="form-data" type="text" value="name" />
-              <input class="form-data" type="text" value="phone" /> <br /><br />
-
-              <select class="form-data2" name="service" id="">
-                <option value="">service</option>
-                <option value="">service1</option>
-                <option value="">service2</option>
-                <option value="">service3</option>
-              </select>
-              <button class="btn form-btn2">
-                <a href="#">send</a>
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-      <div class="second-footer">
+    <!--  footer start -->
+     <div class="second-footer">
         <div class="flex justify-between container">
           <div class="flex-23">
             <img src="./assests/logo/logo2_footer.png" alt="logo" />

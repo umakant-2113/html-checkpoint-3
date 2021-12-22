@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>checkpoints 3</title>
     <!-- css -->
-    <link rel="stylesheet" href="blog.css" />
+    <link rel="stylesheet" href="style.css" />
     <!-- font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,10 +20,12 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <!-- body start   -->
+
+  <!-- body start -->
+
   <body>
     <header class="header">
-      <div class="container flex justify-between align-item">
+      <div class="container flex justify-between">
         <address class="address">
           <a href="#"
             ><i class="fas fa-map-marker-alt"></i
@@ -32,7 +34,8 @@
             </span></a
           >
           <a class="mail" href="#"
-            ><i class="fas fa-envelope"></i><span class="header-span">info@cunsulting.com</span></a
+            ><i class="fas fa-envelope"></i
+            ><span class="header-span">info@cunsulting.com</span></a
           >
         </address>
         <nav>
@@ -54,322 +57,362 @@
       </div>
     </header>
     <header>
-      <div class="container lower-header flex justify-between align-item">
-        <div class="header-logo">
-          <img src="./assests/logo/logo.png" alt="logo" />
+      <div class="second-header">
+        <div class="container lower-header flex justify-between">
+          <div class="header-logo">
+            <img src="./assests/logo/logo.png" alt="logo" />
+          </div>
+          <div class="nav-link">
+            <ul class="flex justify-between">
+              <li class="list"><a href="./index.html">Home</a></li>
+              <li class="list"><a href="#">About</a></li>
+              <li class="list"><a href="./service.html">Service </a></li>
+              <li class="list"><a href="./case.html">Case</a></li>
+              <li class="list"><a href="./blog.html">Blog</a></li>
+              <li class="list"><a href="./contect.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="header-btn">
+            <a href="#">contact now</a>
+          </div>
         </div>
-        <div class="nav-link">
-          <ul class="flex justify-between">
-            <li class="list"><a href="./home.html">Home</a></li>
-            <li class="list"><a href="./about.html">About</a></li>
-            <li class="list"><a href="./service.html">Service </a></li>
-            <li class="list"><a href="./case.html">Case</a></li>
-            <li class="list"><a href="#">Blog</a></li>
-            <li class="list"><a href="./contect.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="header-btn"><a href="#">contact now </a></div>
       </div>
     </header>
 
-    <!--  main start  -->
-
+    <!-- main  -->
 
     <main>
-      <section class="hero-section">
-        <div class="container2 flex justify-center align-item">
-          <h1 class="blog-h1">Our Blog</h1>
+      <section class="section-blog">
+        <div class="container-2 flex2">
+          <h1 class="section-h1">Blog</h1>
         </div>
       </section>
-
-      <!--  sectioon two start  -->
-
-      <section class="section2">
-        <div class="container2 flex justify-between">
+      <!-- section one start -->
+      <section class="section-blog2">
+        <div class="flex justify-between container-2">
           <div class="flex-70">
             <img
               class="full-width"
               src="./assests/blog/blog_1.png"
               alt="blog"
             />
-            <div class="section-hading">
-              <h3>
-                <time> 15 </time>
-                <time class="time">jan</time>
-              </h3>
+            <article>
+              <div class="article-blog">
+                <h4 class="article-blog-h4">15 jan</h4>
+              </div>
+              <h2 class="article-blog-h2">
+                Google inks pact for new-35 storey office
+              </h2>
+              <p class="article-blog-p">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+                voluptatem quo exercitationem fugit laboriosam voluptatum
+                veniam, accusantium earum, fugiat
+              </p>
+            </article>
+            <div class="flex">
+              <nav>
+                <a href="#"><i class="fas fa-user"></i></a>
+                <span class="artcle-blog-span">Travel Lifestyle</span>
+              </nav>
+              <nav>
+                <a href="#"><i class="fas fa-comments"></i> </a>
+                <span class="artcle-blog-span">Comments</span>
+              </nav>
             </div>
-            <h2 class="section-h2">
-              Google inks pact for new 35-storey Office
-            </h2>
-            <p class="section-p">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Laboriosam maxime assumenda totam aliquid illo perferendis facere!
-              Deserunt repellendus debitis laboriosam
-            </p>
-            <nav>
-              <a href="#">
-                <i class="fas fa-user"></i
-                ><span class="nav-span">Travel Lifestyle</span></a
-              >
-              <a class="nav-span span2" href="#"
-                ><i class="fas fa-comments"></i>
-                <span class="nav-span">Comments</span></a
-              >
-            </nav>
           </div>
-          <div class="flex-28 ">
-            <div class="flex justify-between align-items">
-            <p class="flex-28-p">Search Keyword</p>
-            <nav class="search-nav">
-              <a href="#"><i class="fas fa-search"></i></a>
-            </nav>
+          <div class="flex-25 search-btn-div">
+            <div class="flex">
+              <button class="search-btn">Search</button>
+              <button class="search-icon">
+                <a href="#"><i class="fas fa-search"></i></a>
+              </button>
             </div>
-            <div class="button"> Search</div>
-            <div class="category"><h3>category</h3> 
-
+            <div>
+              <button class="subscribe-btn">SEARCH</button>
+            </div>
+            <div class="catogery-list">
+              <h3 class="catogery-list-h3">Catogery</h3>
               <ul>
-                <li class="category-list list2">Resaurant food (37)</li>
-                <li class="category-list">Travel News(10)</li>
-                <li class="category-list">Modern technology(03)</li>
-                <li class="category-list">Product (11)</li>
-                <li class="category-list">Inspiration21</li>
-                <li class="category-list">Health care  (21)09</li>
+                <li class="catogery-list-item">Rasaurant Food (37)</li>
+                <li class="catogery-list-item">Travel news</li>
+                <li class="catogery-list-item">Modern technology (03)</li>
+                <li class="catogery-list-item">Product (11)</li>
+                <li class="catogery-list-item">Insipiration (21)</li>
+                <li class="catogery-list-item">Health Care (21)09</li>
               </ul>
             </div>
-            
           </div>
-          
-          
-        
+        </div>
       </section>
-
-    <!--  section three start -->
-    <section class="section3">
-      <div class="container2 flex justify-between">
+      <!--  section two -->
+       <section class="section-blog2">
+        <div class="flex justify-between container-2">
           <div class="flex-70">
             <img
               class="full-width"
               src="./assests/blog/blog_2.png"
               alt="blog"
             />
-            <div class="section3-hading">
-              <h3>
-                <time> 15 </time>
-                <time class="time">jan</time>
-              </h3>
+            <article>
+              <div class="article-blog1">
+                <h4 class="article-blog1-h4">15 jan</h4>
+              </div>
+              <h2 class="article-blog-h2">
+                Google inks pact for new-35 storey office
+              </h2>
+              <p class="article-blog-p">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+                voluptatem quo exercitationem fugit laboriosam voluptatum
+                veniam, accusantium earum, fugiat
+              </p>
+            </article>
+            <div class="flex">
+              <nav>
+                <a href="#"><i class="fas fa-user"></i></a>
+                <span class="artcle-blog-span">Travel Lifestyle</span>
+              </nav>
+              <nav>
+                <a href="#"><i class="fas fa-comments"></i> </a>
+                <span class="artcle-blog-span">Comments</span>
+              </nav>
             </div>
-            <h2 class="section-h2">
-              Google inks pact for new 35-storey Office
-            </h2>
-            <p class="section-p">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Laboriosam maxime assumenda totam aliquid illo perferendis facere!
-              Deserunt repellendus debitis laboriosam
-            </p>
-            <nav>
-              <a href="#">
-                <i class="fas fa-user"></i
-                ><span class="nav-span">Travel Lifestyle</span></a
-              >
-              <a class="nav-span span2" href="#"
-                ><i class="fas fa-comments"></i>
-                <span class="nav-span">Comments</span></a
-              >
-            </nav>
+            
           </div>
-          <div class=" flex-28 recent-post">
-            <h3>Recent Post</h3>
-            <div class="flex image-box ">
-              <div class="recent-post-image"> <img  class="full-width" src="./assests/post/post_1.png" alt="post"></div>
-              <div class="recent-article">
-                <p>From life was you fish</p>
-                <time>January 10, 2019</time>
-              </div>
+          <div class="flex-25 blog-recent">
+            <div>
+              <h3 class="blog-image-h3">Recent Post</h3>
             </div>
-            <div class="flex image-box ">
-              <div class="recent-post-image"> <img  class="full-width" src="./assests/post/post_2.png" alt="post"></div>
-              <div class="recent-article">
-                <p>The Amazing Hubble</p>
-                <time>02 hours ago</time>
-              </div>
+            <div class="flex justify-evenly blog-image">
+            <div>
+              <img src="./assests/post/post_1.png" alt="">
             </div>
-            <div class="flex image-box">
-              <div class="recent-post-image"> <img  class="full-width" src="./assests/post/post_3.png" alt="post"></div>
-              <div class="recent-article">
-                <p>Astronomy Or Astro</p>
-                <time>03 hours ago</time>
-              </div>
+            <div>
+              <h4 class="blog-image-h4">From life was you fish</h4>
+              <time class="blog-time">Jan 12, 2019</time>
             </div>
-            <div class="flex image-box">
-              <div class="recent-post-image"> <img  class="full-width" src="./assests/post/post_4.png" alt="post"></div>
-              <div class="recent-article">
-                <p>Asteroid telescope</p>
-                <time>01 hours ago</time>
-              </div>
             </div>
-         </div>
-    </section>
 
-    <!-- setionn four start -->
 
-    <section class="section4">
-      <div class="container2 flex justify-between">
+            <div class="flex justify-evenly blog-image">
+
+            <div>
+              <img src="./assests/post/post_2.png" alt="">
+            </div>
+            <div>
+              <h4 class="blog-image-h4">From life was you fish</h4>
+              <time class="blog-time">Jan 12, 2019</time>
+            </div>
+            </div>
+            
+              <div class="flex justify-evenly blog-image">
+            <div>
+              <img src="./assests/post/post_3.png" alt="">
+            </div>
+            <div>
+              <h4 class="blog-image-h4">From life was you fish</h4>
+              <time class="blog-time">Jan 12, 2019</time>
+            </div>
+            </div>
+
+            <div  class="flex justify-evenly blog-image">
+
+            <div>
+              <img src="./assests/post/post_4.png" alt="">
+            </div>
+            <div>
+              <h4 class="blog-image-h4"> From life was you fish</h4>
+              <time class="blog-time">Jan 12, 2019</time>
+            </div>
+            </div>
+            
+              <div class="tag-clouds">
+                <h3 class="tag-clouds-h3">Tag Clouds</h3>
+              
+              <div class="flex flex-wrap  ">
+                <div class="tag-clouds-box"><h5>project</h5></div>
+                <div class="tag-clouds-box"><h5>Love</h5></div>
+                <div class="tag-clouds-box"><h5>technology</h5></div>
+                <div class="tag-clouds-box"><h5>travel</h5></div>
+                <div class="tag-clouds-box"><h5>restaurant</h5></div>
+                <div class="tag-clouds-box"><h5>life style</h5></div>
+                <div class="tag-clouds-box"><h5>design</h5></div>
+                <div class="tag-clouds-box"><h5>illustration</h5></div>
+              </div>
+              </div>
+              <div class="instagram-box">
+              <div class="instagram-h3">
+                <h3>Instagram Feeds</h3>
+                </div>
+                <div class="instagram-image-box">
+                  <img class="instagram-image-box" src="./assests/post/post_5.png" alt="post">
+                  <img class="instagram-image-box" src="./assests/post/post_6.png" alt="post">
+                  <img class="instagram-image-box" src="./assests/post/post_7.png" alt="post">
+                  <img  class="instagram-image-box"src="./assests/post/post_8.png" alt="post">
+                  <img class="instagram-image-box" src="./assests/post/post_9.png" alt="post">
+                  <img class="instagram-image-box" src="./assests/post/post_10.png" alt="post">
+                </div>
+              </div>
+              <div class="flex-25 search-btn-div">
+                <div>
+                  <h3 class="newssletters-h3">Newletters</h3>
+                  <div class="flex">
+              <button class="search-btn search-btn2">Enter Email</button>
+              
+            </div>
+            <div>
+              <button class="subscribe-btn">SUBSCRIBE</button>
+            </div>
+                  
+                </div>
+              </div>
+            </div>
+            </div>
+            
+
+            
+      </section>
+      <!-- sectionn three start  -->
+
+       <section class="section-blog2">
+        <div class="flex justify-between container-2">
           <div class="flex-70">
             <img
               class="full-width"
               src="./assests/blog/blog_3.png"
               alt="blog"
             />
-            <div class="section4-hading">
-              <h3>
-                <time> 15 </time>
-                <time class="time">jan</time>
-              </h3>
-            </div>
-            <h2 class="section-h2">
-              Google inks pact for new 35-storey Office
-            </h2>
-            <p class="section-p">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Laboriosam maxime assumenda totam aliquid illo perferendis facere!
-              Deserunt repellendus debitis laboriosam
-            </p>
-            <nav>
-              <a href="#">
-                <i class="fas fa-user"></i
-                ><span class="nav-span">Travel Lifestyle</span></a
-              >
-              <a class="nav-span span2" href="#"
-                ><i class="fas fa-comments"></i>
-                <span class="nav-span">Comments</span></a
-              >
-            </nav>
-           </div>
-           <div class="flex-28  tag-clouds">
-             <h3 class="tag-clouds-h4">Tag Clouds</h3>
-             <div class="flex flex-wrap ">
-               <div class="tag-clouuds-hading"> <h5>project</h5></div>
-               <div class="tag-clouuds-hading"> <h5>love</h5></div>
-               <div class="tag-clouuds-hading"><h5>technology</h5></div>
-               <div class="tag-clouuds-hading"><h5>travel</h5></div>
-               <div class="tag-clouuds-hading"><h5>restaurent</h5></div>
-               <div  class="tag-clouuds-hading"><h5>life style</h5></div>
-               <div class="tag-clouuds-hading"><h5>design</h5></div>
-               <div class="tag-clouuds-hading"><h5>illustration</h5></div>
-             </div>
-             <div class="instagram-feeds">
-              <h3>Instagram Feeds </h3>
-              <div class="flex flex-wrap instagram-feeds-image ">
-                <div class="image-box-insta"> 
-                  <img src="./assests/post/post_5.png" alt="post">
-                </div>
-                <div class="image-box-insta"> <img src="./assests/post/post_6.png" alt="post"></div>
-                <div class="image-box-insta"> <img src="./assests/post/post_7.png" alt="post"></div>
-                <div class="image-box-insta"> <img src="./assests/post/post_8.png" alt="post"></div>
-                <div class="image-box-insta"> <img src="./assests/post/post_9.png" alt="post"></div>
-                <div class="image-box-insta"> <img src="./assests/post/post_10.png" alt="post"></div>
+            <article>
+              <div class="article-blog2">
+                <h4 class="article-blog2-h4">15 jan</h4>
               </div>
+              <h2 class="article-blog-h2">
+                Google inks pact for new-35 storey office
+              </h2>
+              <p class="article-blog-p">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+                voluptatem quo exercitationem fugit laboriosam voluptatum
+                veniam, accusantium earum, fugiat
+              </p>
+            </article>
+            <div class="flex">
+              <nav>
+                <a href="#"><i class="fas fa-user"></i></a>
+                <span class="artcle-blog-span">Travel Lifestyle</span>
+              </nav>
+              <nav>
+                <a href="#"><i class="fas fa-comments"></i> </a>
+                <span class="artcle-blog-span">Comments</span>
+              </nav>
             </div>
-            <div class="newsletter">
-                  <h3>newsletter</h3>
-                  <div class="newsletter-p">
-                    <p>Enter email</p>
-                  </div>
-                  <div class="button button2"> SUBSCRIBE</div>
-            </div>
-            </div>
-            
           </div>
-          
-    </section>
-    
-    <!-- section five start  -->
+          </section>
 
-    <section class="section5">
-      <div class="container2 flex justify-between">
+          <!-- section four start  -->
+          <section class="section-blog2">
+        <div class="flex justify-between container-2">
           <div class="flex-70">
             <img
               class="full-width"
               src="./assests/blog/blog_4.png"
               alt="blog"
             />
-            <div class="section5-hading">
-              <h3>
-                <time> 15 </time>
-                <time class="time">jan</time>
-              </h3>
+            <article>
+              <div class="article-blog3">
+                <h4 class="article-blog3-h4">15 jan</h4>
+              </div>
+              <h2 class="article-blog-h2">
+                Google inks pact for new-35 storey office
+              </h2>
+              <p class="article-blog-p">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+                voluptatem quo exercitationem fugit laboriosam voluptatum
+                veniam, accusantium earum, fugiat
+              </p>
+            </article>
+            <div class="flex">
+              <nav>
+                <a href="#"><i class="fas fa-user"></i></a>
+                <span class="artcle-blog-span">Travel Lifestyle</span>
+              </nav>
+              <nav>
+                <a href="#"><i class="fas fa-comments"></i> </a>
+                <span class="artcle-blog-span">Comments</span>
+              </nav>
             </div>
-            <h2 class="section-h2">
-              Google inks pact for new 35-storey Office
-            </h2>
-            <p class="section-p">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Laboriosam maxime assumenda totam aliquid illo perferendis facere!
-              Deserunt repellendus debitis laboriosam
-            </p>
-            <nav>
-              <a href="#">
-                <i class="fas fa-user"></i
-                ><span class="nav-span">Travel Lifestyle</span></a
-              >
-              <a class="nav-span span2" href="#"
-                ><i class="fas fa-comments"></i>
-                <span class="nav-span">Comments</span></a
-              >
-            </nav>
           </div>
-    </section>
-
-    <!--  section six start -->
-
-    <section class="section6">
-      <div class="container2 flex justify-between">
+          </section>
+          <!-- section five start  -->
+          <section class="section-blog2">
+        <div class="flex justify-between container-2">
           <div class="flex-70">
             <img
               class="full-width"
               src="./assests/blog/blog_5.png"
               alt="blog"
             />
-            <div class="section6-hading">
-              <h3>
-                <time> 15 </time>
-                <time class="time">jan</time>
-              </h3>
+            <article>
+              <div class="article-blog4">
+                <h4 class="article-blog4-h4">15 jan</h4>
+              </div>
+              <h2 class="article-blog-h2">
+                Google inks pact for new-35 storey office
+              </h2>
+              <p class="article-blog-p">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+                voluptatem quo exercitationem fugit laboriosam voluptatum
+                veniam, accusantium earum, fugiat
+              </p>
+            </article>
+            <div class="flex">
+              <nav>
+                <a href="#"><i class="fas fa-user"></i></a>
+                <span class="artcle-blog-span">Travel Lifestyle</span>
+              </nav>
+              <nav>
+                <a href="#"><i class="fas fa-comments"></i> </a>
+                <span class="artcle-blog-span">Comments</span>
+              </nav>
             </div>
-            <h2 class="section-h2">
-              Google inks pact for new 35-storey Office
-            </h2>
-            <p class="section-p">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Laboriosam maxime assumenda totam aliquid illo perferendis facere!
-              Deserunt repellendus debitis laboriosam
-            </p>
-            <nav>
-              <a href="#">
-                <i class="fas fa-user"></i
-                ><span class="nav-span">Travel Lifestyle</span></a
-              >
-              <a class="nav-span span2" href="#"
-                ><i class="fas fa-comments"></i>
-                <span class="nav-span">Comments</span></a
-              >
-            </nav>
-            <div class="angle-mark">
-            <span class="angle-mark-span"><a href="#"><i class="fas fa-angle-left"></i></a></span>
-            <span class="angle-mark-span">1</span>
-            <span class="angle-mark-span">2</span>
-            <span class="angle-mark-span"><a href="#"><i class="fas fa-angle-right"></i></a></span>
           </div>
-          </div>
-          
-    </section>
+          </section>
     </main>
+    <!-- footer start  -->
 
+    <footer>
+      <div class="footer">
+        <div class="container flex justify-between">
+          <div class="flex-30">
+            <h2 class="footer-h2">
+              request for call <br />
+              back
+            </h2>
+            <p class="footer-p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+              pariatur consequatur, beatae aliquam sed enim, similique, iure .
+              pariatur consequatur, beatae aliquam sed enim, similique, iure .
+            </p>
+          </div>
+          <div class="flex-60">
+            <form action="">
+              <input class="form-data" type="text" value="name" />
+              <input class="form-data" type="text" value="phone" /> <br /><br />
 
-    <!--  footer start -->
-<footer>
-  <div class="second-footer">
-        <div class="flex justify-between container2">
+              <select class="form-data2" name="service" id="">
+                <option value="">service</option>
+                <option value="">service1</option>
+                <option value="">service2</option>
+                <option value="">service3</option>
+              </select>
+              <button class="btn form-btn2">
+                <a href="#">send</a>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!--  lower footer -->
+      <div class="second-footer">
+        <div class="flex justify-between container">
           <div class="flex-23">
             <img src="./assests/logo/logo2_footer.png" alt="logo" />
             <p class="second-footer-p">
@@ -410,7 +453,7 @@
             </nav>
           </div>
           <div class="flex-23">
-            <h4 class="second-footer-address">Get in Touch</h4>
+            <h4 class="second-footer-h4">Get in Touch</h4>
             <address>
               <p class="address-p">152-515-6565</p>
               <p class="address-p">Dermonial@gmail.com</p>
@@ -419,16 +462,13 @@
           </div>
         </div>
       </div>
-      <div class="under-footer-div">
-      <div class="container2 under-footer">
+      <div class="container under-footer">
         <small class="under-footer-small"
           >Copyright&COPY; All Right Reserved This templet is made with
           <a href="#"><i class="far fa-heart"></i></a> by
           <span class="under-footer-span">Colorib </span></small
         >
       </div>
-      </div>
-</footer>
-    
+    </footer>
   </body>
 </html>

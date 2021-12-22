@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>checkpoints 3</title>
     <!-- css -->
-    <link rel="stylesheet" href="case.css" />
+    <link rel="stylesheet" href="style.css" />
     <!-- font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,6 +20,9 @@
       crossorigin="anonymous"
     ></script>
   </head>
+
+  <!-- body start -->
+
   <body>
     <header class="header">
       <div class="container flex justify-between">
@@ -54,107 +57,110 @@
       </div>
     </header>
     <header>
-      <div class="container lower-header flex justify-between">
-        <div class="header-logo">
-          <img src="./assests/logo/logo.png" alt="logo" />
+      <div class="second-header">
+        <div class="container lower-header flex justify-between">
+          <div class="header-logo">
+            <img src="./assests/logo/logo.png" alt="logo" />
+          </div>
+          <div class="nav-link">
+            <ul class="flex justify-between">
+              <li class="list"><a href="./index.html">Home</a></li>
+              <li class="list"><a href="./about.html">About</a></li>
+              <li class="list"><a href="./service.html">Service </a></li>
+              <li class="list"><a href="#">Case</a></li>
+              <li class="list"><a href="./blog.html">Blog</a></li>
+              <li class="list"><a href="./contect.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="header-btn">
+            <a href="#">contact now</a>
+          </div>
         </div>
-        <div class="nav-link">
-          <ul class="flex justify-between">
-            <li class="list"><a href="./home.html">Home</a></li>
-            <li class="list"><a href="./about.html">About</a></li>
-            <li class="list"><a href="./service.html">Service </a></li>
-            <li class="list"><a href="#">Case</a></li>
-            <li class="list"><a href="./blog.html">Blog</a></li>
-            <li class="list"><a href="./contect.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="header-btn">contact now</div>
       </div>
     </header>
 
-    <!--  main start -->
+    <!-- main start  -->
 
     <main>
-      <section class="hero-section">
-        <div class="container flex justify-center">
-          <h1 class="case-h1">Case Study</h1>
+      <section class="section-case">
+        <div class="flex2 container">
+          <h1 class="section-h1">Case Study</h1>
         </div>
       </section>
+      <!--  section team start -->
 
-      <!-- team section start -->
-      <section class="team-section">
-        <div class="container">
-          <div class="flex justify-between flex-wrap">
-            <div class="flex-30 team-image-box">
-              <img
-                class="full-width"
-                src="./assests/case/completed_case_1.png"
-                alt=" case"
-              />
-            </div>
-            <div class="article">
-              <h3 class="team-h3">marketing strategy</h3>
-              <p class="team-p">Lorem ipsum dolor sit amet consectetur .</p>
-            </div>
-            <div class="flex-30 team-image-box">
-              <img
-                class="full-width"
-                src="./assests/case/completed_case_2.png"
-                alt="case"
-              />
-              <div class="article">
-                <h3 class="team-h3">marketing strategy</h3>
-                <p class="team-p">Lorem ipsum dolor sit amet consectetur .</p>
-              </div>
-            </div>
-            <div class="flex-30 team-image-box">
-              <img
-                class="full-width"
-                src="./assests/case/completed_case_3.png"
-                alt="case"
-              />
-              <div class="article">
-                <h3 class="team-h3">marketing strategy</h3>
-                <p class="team-p">Lorem ipsum dolor sit amet consectetur .</p>
-              </div>
-            </div>
-            <div class="flex-30 team-image-box">
-              <img
-                class="full-width"
-                src="./assests/case/completed_case_4.png"
-                alt="case"
-              />
-              <div class="article2">
-                <h3 class="team-h3">marketing strategy</h3>
-                <p class="team-p">Lorem ipsum dolor sit amet consectetur .</p>
-              </div>
-            </div>
-            <div class="flex-30 team-image-box">
-              <img
-                class="full-width"
-                src="./assests/case/completed_case_5.png"
-                alt="case"
-              />
-              <div class="article2">
-                <h3 class="team-h3">marketing strategy</h3>
-                <p class="team-p">Lorem ipsum dolor sit amet consectetur .</p>
-              </div>
-            </div>
-            <div class="flex-30 team-image-box">
-              <img
-                class="full-width"
-                src="./assests/case/completed_case_6.png"
-                alt="case"
-              />
-              <div class="article2">
-                <h3 class="team-h3">marketing strategy</h3>
-                <p class="team-p">Lorem ipsum dolor sit amet consectetur .</p>
-              </div>
-            </div>
+      <section class="section-team">
+        <div class="flex justify-between flex-wrap container case-div">
+          <div class="flex-30 case-image">
+            <img
+              class="full-width"
+              src="./assests/case/completed_case_1.png"
+              alt="case"
+            />
+            <article class="case-article1">
+              <h3 class="h3-case">Marketing Strategy</h3>
+              <p class="p-case">Lorem ipsum dolor sit amet consectetur,</p>
+            </article>
+          </div>
+          <div class="flex-30 case-image">
+            <img
+              class="full-width"
+              src="./assests/case/completed_case_2.png"
+              alt="case"
+            />
+            <article class="case-article1">
+              <h3 class="h3-case">Marketing Strategy</h3>
+              <p class="p-case">Lorem ipsum dolor sit amet consectetur,</p>
+            </article>
+          </div>
+          <div class="flex-30 case-image">
+            <img
+              class="full-width"
+              src="./assests/case/completed_case_3.png"
+              alt="case"
+            />
+            <article class="case-article1">
+              <h3 class="h3-case">Marketing Strategy</h3>
+              <p class="p-case">Lorem ipsum dolor sit amet consectetur,</p>
+            </article>
+          </div>
+          <div class="flex-30 case-image">
+            <img
+              class="full-width"
+              src="./assests/case/completed_case_4.png"
+              alt="case"
+            />
+            <article class="case-article2">
+              <h3 class="h3-case">Marketing Strategy</h3>
+              <p class="p-case">Lorem ipsum dolor sit amet consectetur,</p>
+            </article>
+          </div>
+          <div class="flex-30 case-image">
+            <img
+              class="full-width"
+              src="./assests/case/completed_case_5.png"
+              alt="case"
+            />
+            <article class="case-article2">
+              <h3 class="h3-case">Marketing Strategy</h3>
+              <p class="p-case">Lorem ipsum dolor sit amet consectetur,</p>
+            </article>
+          </div>
+          <div class="flex-30 case-image">
+            <img
+              class="full-width"
+              src="./assests/case/completed_case_6.png"
+              alt="case"
+            />
+            <article class="case-article2">
+              <h3 class="h3-case">Marketing Strategy</h3>
+              <p class="p-case">Lorem ipsum dolor sit amet consectetur,</p>
+            </article>
           </div>
         </div>
       </section>
     </main>
+    <!-- footer start -->
     <footer>
       <div class="footer">
         <div class="container flex justify-between">
@@ -187,6 +193,7 @@
           </div>
         </div>
       </div>
+      <!--  lower footer -->
       <div class="second-footer">
         <div class="flex justify-between container">
           <div class="flex-23">
