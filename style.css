@@ -595,6 +595,7 @@ body {
 
   margin-right: 1.5rem;
   padding-left: 10px;
+  border: 1px solid rgb(33, 202, 202);
 }
 .form-data2 {
   width: 45%;
@@ -605,6 +606,7 @@ body {
 
   margin-right: 1.5rem;
   padding-left: 10px;
+  border: 1px solid rgb(33, 202, 202);
 }
 input :focus {
   outline: none;
@@ -708,7 +710,7 @@ input :focus {
 }
 
 .case-image {
-  margin: 1.5rem 0;
+  margin: 2rem 0;
 }
 
 .case-article1 {
@@ -734,7 +736,6 @@ input :focus {
   background-color: white;
   position: absolute;
   top: 104rem;
-
   width: 20%;
   padding: 2rem;
 }
